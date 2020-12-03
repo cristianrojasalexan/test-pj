@@ -136,18 +136,9 @@ GEM
       rspec-mocks (~> 3.9.0)
       rspec-support (~> 3.9.0)
     rspec-support (3.9.2)
-    rswag (2.3.1)
-      rswag-api (= 2.3.1)
-      rswag-specs (= 2.3.1)
-      rswag-ui (= 2.3.1)
-    rswag-api (2.3.1)
-      railties (>= 3.1, < 7.0)
     rswag-specs (2.3.1)
       activesupport (>= 3.1, < 7.0)
       json-schema (~> 2.2)
-      railties (>= 3.1, < 7.0)
-    rswag-ui (2.3.1)
-      actionpack (>= 3.1, < 7.0)
       railties (>= 3.1, < 7.0)
     ruby_dep (1.5.0)
     spring (2.1.1)
@@ -181,7 +172,6 @@ DEPENDENCIES
   puma (~> 3.11)
   rails (~> 5.2.0)
   rspec-rails
-  rswag
   rswag-specs
   spring
   spring-watcher-listen (~> 2.0.0)
